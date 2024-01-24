@@ -1,0 +1,60 @@
+body {
+  background-color: darkslategrey;/* Dark background */
+  color: darkgreen; /* Light text color */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+}
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #818181;
+  display: block;
+}
+
+.logoside{
+  max-width: 80%;
+  height: auto;
+  margin-left: 20px;
+}
+.drzewko {
+  position: relative;
+}
+
+.drzewko a {
+  display: block;
+  padding: 8px 6px 6px 32px;
+  text-decoration: none;
+  color: #818181;
+  font-size: 0.9rem;
+}
+
+.drzewko a:hover {
+  color: #f1f1f1;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.drzewko:hover .dropdown {
+  display: block;
+  margin-left:160px;
+  opacity: 1;
+  visibility: visible;
+}
