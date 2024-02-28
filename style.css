@@ -16,56 +16,27 @@ body {
   margin: 0;
   padding: 0;
 }
-.sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: var(--color-dg);
-}
-.sidenav a {
-  padding: 6px 6px 6px 32px;
-  text-decoration: none;
-  font-size: 0.9rem;
-  color: var(--color-text);
-  display: block;
-}
 
-.logoside{
-  max-width: 80%;
+.main{
+  width: 78% ;
   height: auto;
-  margin-left: 20px;
-}
-.drzewko {
-  position: relative;
-}
-
-.drzewko a {
-  display: block;
-  padding: 8px 6px 6px 32px;
-  text-decoration: none;
-  color: --color;
-  font-size: 0.9rem;
+  padding: 20px;
+  margin: 20 20 20 200;
+  color: black;
+  background-color: var(--color-highlight);
+  float: left;
 }
 
-.drzewko a:hover {
-  color: var(--color-highlight);
+.main p{
+  margin: 8px;
 }
 
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 0;
-  background-color: var(--color-popup);
-  opacity: 0;
-  visibility: hidden;
+.main th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
 }
 
-.drzewko:hover .dropdown {
-  display: block;
-  margin-left:160px;
-  opacity: 1;
-  visibility: visible;
-}
+ #miesiace tr:hover{
+  background-color: var(--color-s)
+ }
