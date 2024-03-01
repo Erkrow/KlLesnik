@@ -15,28 +15,36 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 .main{
   width: 78% ;
-  height: auto;
   padding: 20px;
   margin: 20 20 20 200;
   color: black;
   background-color: var(--color-highlight);
-  float: left;
+  flex-grow: 1;
 }
 
 .main p{
   margin: 8px;
 }
 
-.main th, td {
+#miesiace th, td {
   padding: 10px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid black;
+}
+#miesiace{
+  float: left;
+  cursor: pointer;
 }
 
- #miesiace tr:hover{
+#miesiace tr:hover{
   background-color: var(--color-s)
- }
+}
+
+.dynamicContent{
+  color: black;
+}
