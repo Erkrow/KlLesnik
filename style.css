@@ -46,6 +46,39 @@ body {
   background-color: var(--color-s)
 }
 
-.dynamicContent{
-  color: black;
+.grupy {
+  display: flex;
+  justify-content: space-between;
+}
+
+#numer_grupy{
+  font-size: 2.5rem;
+}
+
+.grupy ul {
+  margin: 10;
+  padding: 10;
+}
+
+.grupy ul li {
+  margin: 10;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.czlonkowie_lista {
+  display: flex;
+  gap: 20%;
+  margin: 10px;
+}
+
+.czlonkowie_lista ol {
+  margin: 5;
+  padding: 5;
+}
+
+.czlonkowie_lista ol li {
+  margin: 5;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
 }
