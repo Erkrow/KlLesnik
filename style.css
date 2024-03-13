@@ -32,6 +32,15 @@ body {
   margin: 8px;
 }
 
+#welcome{
+  height: auto;
+  background-image: url(images/tlo_tekst.jpg);
+  color: var(--color-highlight);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 #miesiace th, td {
   padding: 10px;
   text-align: left;
